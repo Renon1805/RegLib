@@ -147,6 +147,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Include\RegLib.h" />
+    <ClInclude Include="Src\Core\RegCore.h" />
+    <ClInclude Include="Src\pch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\pch.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
